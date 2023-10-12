@@ -7,12 +7,18 @@
     <groupId>lab6</groupId>
     <artifactId>demo</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <dependencies>
+      <dependencies>
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
-            <version>1.18.30</version>
+            <version>1.18.24</version>
             <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter</artifactId>
+            <version>5.8.1</version>
+            <scope>test</scope>
         </dependency>
     </dependencies>
     <properties>

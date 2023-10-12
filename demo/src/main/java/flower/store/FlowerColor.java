@@ -1,5 +1,5 @@
 package flower.store;
 
-public class FlowerColor {
-    
+public enum FlowerColor {
+    RED, WHITE, YELLOW 
 }
